@@ -3,9 +3,9 @@ vErsion:1.0
 Website: www.shoaibkhan.in'''
 import zipfile
 count=0
-zip=input("Enter name of passworded protected zip file-> ")
+zip=input("Enter name/path of passworded protected zip file-> ")
 zFile = zipfile.ZipFile(zip)
-pass_list=input("Enter name of dictionary file or pass list-> ")
+pass_list=input("Enter name/path of dictionary file or pass list-> ")
 #passFile = open(pass_list)
 print('If prog pauses then password is found & file is being extracted. Please Wait!')
 with open(pass_list) as r:
